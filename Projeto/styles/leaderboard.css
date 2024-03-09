@@ -1,0 +1,92 @@
+body {
+    font-family: monospace;
+    background-image: url("/Projeto/images/blueBackground3.jpg");
+    background-size: 100%;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    height: 150%;
+}
+
+#tit {
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.menu {
+    background-color: rgba(7, 8, 70, 0.573);
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    border-bottom: 1px solid #3639d6;
+}
+
+.menu ul {
+    margin-top: 3%;
+    margin-left: 65%;
+    margin-bottom: 3%;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 50px;
+}
+
+#home {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#market {
+    color: orange;
+    text-decoration: none;
+}
+
+#user {
+    cursor: pointer;
+    position: absolute;
+    left: 46%;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+
+#login {
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+table {
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 20%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0d0c7297;
+}
+
+tr{
+    color: white;
+}

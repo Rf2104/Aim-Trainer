@@ -1,0 +1,99 @@
+body {
+    font-family: monospace;
+    background-image: url("/Projeto/images/blueBackground3.jpg");
+    background-size: 100%;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    height: 150%;
+}
+
+#tit {
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.menu {
+    background-color: rgba(7, 8, 70, 0.573);
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    border-bottom: 1px solid #3639d6;
+}
+
+.menu ul {
+    margin-top: 3%;
+    margin-left: 65%;
+    margin-bottom: 3%;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 50px;
+}
+
+#home {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#market {
+    color: orange;
+    text-decoration: none;
+}
+
+#user {
+    cursor: pointer;
+    position: absolute;
+    left: 46%;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+
+#login {
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+    width: 55%;
+    margin-left: 25%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+th,
+td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    color: white;
+}
+
+th {
+    background-color: #0c0cb1c5;
+}
+
+#check{
+    width:5%;
+}
+
+#delete{
+    margin-left: 25%;
+    margin-top: 7%;
+    position: absolute;
+}
+
+#editar{
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 6%;
+}

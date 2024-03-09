@@ -1,0 +1,172 @@
+body {
+    font-family: monospace;
+    background-image: url("/Projeto/images/blueBackground3.jpg");
+    background-size: 100%;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#tit {
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.menu {
+    background-color: rgba(7, 8, 70, 0.573);
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    border-bottom: 1px solid #3639d6;
+}
+
+.menu ul {
+    margin-top: 3%;
+    margin-left: 65%;
+    margin-bottom: 3%;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 50px;
+}
+
+#home {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#market {
+    color: orange;
+    text-decoration: none;
+}
+
+#user {
+    cursor: pointer;
+    position: absolute;
+    left: 46%;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+
+form {
+    position: relative;
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+#items {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.297);
+    margin-left: 5%;
+    margin-right: 30%;
+    border: 2px solid rgba(18, 18, 166, 0.772);
+}
+
+#items img {
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+    background-color: rgba(255, 255, 255, 0.372);
+}
+
+#items p{
+    padding-top: 33px;
+}
+
+#edit {
+    padding-top: 30px;
+}
+
+#sub {
+    width: 31%;
+    height: 30px;
+    border-radius: 2px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(18, 18, 166, 0.772);
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#sub:hover {
+    color: white;
+    background-color: rgba(18, 18, 166, 0.301);
+    transition: 0.3s;
+}
+
+.selects {
+    color: white;
+    background-color: rgba(18, 18, 166, 0.772);
+    text-align: center;
+    font-size: 15px;
+}
+
+#pdfgen {
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgba(18, 18, 166, 0.772);
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#pdfgen:hover {
+    color: white;
+    background-color: rgba(18, 18, 166, 0.354);
+    transition: 0.3s;
+}
+
+#login {
+    cursor: pointer;
+}
+
+#ref {
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    position: fixed;
+    background-color: rgba(7, 8, 70, 0.573);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #3639d6;
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+.back-to-top {
+    position: absolute;
+    background-color: #3639d6;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    padding: 5px 10px;
+    right: 400px;
+    bottom: 0;
+    margin-bottom: 18px;
+}
+
+.back-to-top:hover {
+    background-color: #1d1f94;
+}

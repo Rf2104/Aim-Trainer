@@ -1,0 +1,161 @@
+body {
+    font-family: monospace;
+    background-image: url("/Projeto/images/blueBackground3.jpg");
+    background-size: 100%;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    height: 150%;
+    overflow-x: hidden;
+}
+
+#tit {
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.menu {
+    background-color: rgba(7, 8, 70, 0.573);
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    border-bottom: 1px solid #3639d6;
+}
+
+.menu ul {
+    margin-top: 3%;
+    margin-left: 65%;
+    margin-bottom: 3%;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 50px;
+}
+
+#home {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#market {
+    color: orange;
+    text-decoration: none;
+}
+
+#user {
+    cursor: pointer;
+    position: absolute;
+    left: 46%;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+
+#divbox {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    position: fixed;
+}
+
+#divgame {
+    width: 800px;
+    height: 500px;
+    border: 1px solid #3639d6;
+    margin: auto;
+    background-image: url("/Projeto/images/mapa3.jpg");
+    background-size: 111%;
+    cursor: crosshair;
+    margin-bottom: 6%;
+}
+
+#info {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 23%;
+}
+
+#info li {
+    display: inline;
+}
+
+#avg {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#pgbutton {
+    display: none;
+    margin-left: 35%;
+    background-color: orange;
+    border-radius: 50px;
+    border: 1px solid orange;
+    width: 30%;
+    height: 15%;
+    font-size: 25px;
+    color: white;
+}
+
+#pgbutton:hover {
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#ac{
+    margin-left: 40%;
+    margin-top: 20%;
+    color: white;
+    font-size: 20px;
+}
+
+#login {
+    cursor: pointer;
+}
+
+#ref {
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    position: relative;
+    background-color: rgba(7, 8, 70, 0.573);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #3639d6;
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+.back-to-top {
+    position: absolute;
+    background-color: #3639d6;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    padding: 5px 10px;
+    right: 400px;
+    bottom: 0;
+    margin-bottom: 18px;
+}
+
+.back-to-top:hover {
+    background-color: #1d1f94;
+}

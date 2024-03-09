@@ -1,0 +1,274 @@
+body {
+    font-family: monospace;
+    background-image: url("/Projeto/images/blueBackground3.jpg");
+    background-size: 100%;
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    height: 150%;
+    overflow-x: hidden;
+}
+
+#tit {
+    color: white;
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+}
+
+.menu {
+    background-color: rgba(7, 8, 70, 0.573);
+    color: whitesmoke;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    margin: 0;
+    border-bottom: 1px solid #3639d6;
+}
+
+.menu ul {
+    margin-top: 3%;
+    margin-left: 65%;
+    margin-bottom: 3%;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 50px;
+}
+
+#home {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#market {
+    color: orange;
+    text-decoration: none;
+}
+
+#user {
+    cursor: pointer;
+    position: absolute;
+    left: 46%;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1.5%;
+}
+
+.game-box {
+    width: 20%;
+    height: 200px;
+    background-color: rgb(14, 17, 13);
+    color: white;
+    position: absolute;
+    border: 2px solid rgb(6, 0, 128);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 40%;
+    margin-left: 15.5%;
+}
+
+.container {
+    position: relative;
+    margin-top: 5%;
+    padding-bottom: 54%;
+}
+
+.game-box:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.game-box.rea {
+    background-image: url("/Projeto/images/reaction.png");
+    background-size: 140%;
+}
+
+.game-box.tra {
+    margin-left: 40.5%;
+    background-image: url("/Projeto/images/tracking.png");
+    background-size: 140%;
+}
+
+.game-box.pre {
+    margin-left: 65.5%;
+    background-image: url("/Projeto/images/precision.png");
+    background-size: 140%;
+}
+
+.gameShow {
+    color: white;
+    position: absolute;
+    display: flex;
+    margin-top: 7%;
+    margin-left: 34%;
+}
+
+#leaderboard {
+    margin-left: 2%;
+    padding-bottom: 5%;
+}
+
+#leaderboard a {
+    text-decoration: none;
+    color: rgb(211, 191, 11);
+}
+
+#leaderboard a:hover {
+    color: rgb(255, 255, 255);
+}
+
+#leaderboard li {
+    font-size: 22px;
+    display: inline;
+    margin-left: 17%;
+}
+
+#training {
+    position: absolute;
+    margin-top: 35%;
+    margin-left: 46%;
+    color: white;
+}
+
+#login {
+    cursor: pointer;
+}
+
+#ref {
+    text-decoration: none;
+    color: orange;
+}
+
+#linha1 {
+    border-bottom: 2px solid #3639d6;
+    margin-bottom: 75px;
+}
+
+#mainText {
+    color: white;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    line-height: 1.5;
+    padding-bottom: 5%;
+}
+
+#improve {
+    padding-left: 15%;
+    background-color: rgba(7, 8, 70, 0.216);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 3%;
+}
+
+#improve h1 {
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#improve p {
+    color: white;
+    width: 60%;
+    padding-left: 20%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#improve img {
+    width: 27%;
+    float: left;
+    padding-right: 100px;
+}
+
+#pros {
+    padding-left: 15%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 5%;
+}
+
+#pros h1 {
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#pros p {
+    color: white;
+    width: 60%;
+    padding-left: 20%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#pros img {
+    width: 30%;
+    float: left;
+    padding-right: 100px;
+}
+
+#challenges {
+    padding-left: 15%;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin-bottom: 5%;
+    background-color: rgba(7, 8, 70, 0.216);
+}
+
+#challenges h1 {
+    color: white;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#challenges p {
+    color: white;
+    width: 60%;
+    padding-left: 20%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+#challenges img {
+    width: 30%;
+    float: left;
+    padding-right: 100px;
+}
+
+.footer {
+    position: relative;
+    background-color: rgba(7, 8, 70, 0.573);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #3639d6;
+    padding-left: 200px;
+    font-size: 20px;
+}
+
+.back-to-top {
+    position: absolute;
+    background-color: #3639d6;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    padding: 5px 10px;
+    right: 400px;
+    bottom: 0;
+    margin-bottom: 18px;
+}
+
+.back-to-top:hover {
+    background-color: #1d1f94;
+}
